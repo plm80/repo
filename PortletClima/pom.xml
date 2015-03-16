@@ -140,6 +140,9 @@
 <profiles>
 <profile>
 	<id>Liferay-v6.2-CE-(Tomcat-7)</id>
+	<activation>
+		<activeByDefault>true</activeByDefault>
+	</activation>
 	<properties>
 		<liferay.version>6.2.2</liferay.version>
 		<liferay.maven.plugin.version>6.2.2</liferay.maven.plugin.version>
